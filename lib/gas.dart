@@ -35,7 +35,8 @@ class _GasOrAlcoolState extends State<GasOrAlcool> {
                 child:TextField(
                     controller: _controller,
                     decoration: InputDecoration(
-                      hintText: 'preço do Alcool, ex: 1.59'
+                      labelText: 'preço do Alcool, ex: 1.59',
+                      //hintText: 'preço do Alcool, ex: 1.59'
                     ),
                   ) ,
               ),
@@ -43,7 +44,8 @@ class _GasOrAlcoolState extends State<GasOrAlcool> {
                 child: TextField(
                     controller: _controller2,
                     decoration: InputDecoration(
-                      hintText: 'preço da gasolina, ex: 3.15'
+                      labelText: 'preço da gasolina, ex: 3.15',
+                      //hintText: 'preço da gasolina, ex: 3.15'
                     ),
                   ),
               ),    
