@@ -52,6 +52,7 @@ class _GasOrAlcoolState extends State<GasOrAlcool> {
               Padding(padding: EdgeInsets.fromLTRB(0, 20, 0, 20),
                 child:RaisedButton(child: Text('Calcular'
                   ,style: TextStyle(color: Colors.white),),
+                  padding: EdgeInsets.fromLTRB(100, 0, 100, 0),
                   color: Colors.blueAccent,
                   onPressed: (){
                     try {
